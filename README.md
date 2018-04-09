@@ -15,10 +15,11 @@
 
 ## Table of Contents
 
-1. [Step 1: Introduction to Python](#1)
-2. [Step 2: Intermediate Python and Pandas](#2)
+1. [Step 1: Introduction to Python](#step-1-introduction-to-python)
+2. [Step 2: Intermediate Python and Pandas](#step-2-intermediate-python-and-pandas)
+3. [Step 3: The Command Line](#step-3-the-command-line)
 
-## [Step 1: Introduction to Python](#){name=1}
+## Step 1: Introduction to Python
 
 ### 1. Python Programmer Beginner
 
@@ -186,7 +187,8 @@ Use list comprehensions, modules, and the datetime package to find patterns in U
 * How to remove the header row from a list of lists
 * How to use a dictionary to count values
 
-## [Step 2: Intermediate Python and Pandas](#){name=2}
+## Step 2: Intermediate Python and Pandas
+
 ### 1. Data Analysis with Pandas: Intermediate
 
 **About This Course**
