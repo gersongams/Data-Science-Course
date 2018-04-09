@@ -24,7 +24,7 @@
 7.  [Step 7: Advanced Python and Computer Science](#step-7-advanced-python-and-computer-science)
 8.  [Step 8: Advanced Topics in Data Science](#step-8-advanced-topics-in-data-science)
 9.  [Step 9: Big Data](#step-9-big-data)
-10. 
+
 ## Step 1: Introduction to Python
 
 ### 1. Python Programmer Beginner
