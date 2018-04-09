@@ -1,8 +1,9 @@
 # Data Science Carrer
 
----
+** About This Path**
 
-Learn how to manipulate and analyze data.
+* Learn how to make inferences and predictions from data.
+* Learn how to manipulate and analyze data.
 
 **WHAT YOU'LL LEARN**
 
@@ -10,8 +11,14 @@ Learn how to manipulate and analyze data.
 * How to clean and visualize data
 * Probability and statistics for data analysis
 * Collaboration tools like git and SQL databases
+* How to make predictions use statistics and machine learning
 
-## Step 1: Introduction to Python
+## Table of Contents
+
+1. [Step 1: Introduction to Python](#1)
+2. [Step 2: Intermediate Python and Pandas](#2)
+
+## [Step 1: Introduction to Python](#){name=1}
 
 ### 1. Python Programmer Beginner
 
@@ -179,8 +186,7 @@ Use list comprehensions, modules, and the datetime package to find patterns in U
 * How to remove the header row from a list of lists
 * How to use a dictionary to count values
 
-## Step 2: Intermediate Python and Pandas
-
+## [Step 2: Intermediate Python and Pandas](#){name=2}
 ### 1. Data Analysis with Pandas: Intermediate
 
 **About This Course**
