@@ -1,6 +1,6 @@
 # Data Science Carrer
 
-** About This Path**
+**About This Path**
 
 * Learn how to make inferences and predictions from data.
 * Learn how to manipulate and analyze data.
@@ -15,10 +15,16 @@
 
 ## Table of Contents
 
-1. [Step 1: Introduction to Python](#step-1-introduction-to-python)
-2. [Step 2: Intermediate Python and Pandas](#step-2-intermediate-python-and-pandas)
-3. [Step 3: The Command Line](#step-3-the-command-line)
-
+1.  [Step 1: Introduction to Python](#step-1-introduction-to-python)
+2.  [Step 2: Intermediate Python and Pandas](#step-2-intermediate-python-and-pandas)
+3.  [Step 3: The Command Line](#step-3-the-command-line)
+4.  [Step 4: Working with Data Sources](#step-4-working-with-data-sources)
+5.  [Step 5: Probability and Statistics](#step-5-probability-and-statistics)
+6.  [Step 6: Machine Learning](#step-6-machine-learning)
+7.  [Step 7: Advanced Python and Computer Science](#step-7-advanced-python-and-computer-science)
+8.  [Step 8: Advanced Topics in Data Science](#step-8-advanced-topics-in-data-science)
+9.  [Step 9: Big Data](#step-9-big-data)
+10. 
 ## Step 1: Introduction to Python
 
 ### 1. Python Programmer Beginner
@@ -853,18 +859,21 @@ Learn more advanced statistical concepts for more powerful data analysis.
 * Learn about regular and multi-category chi-square tests
 
 #### 2.1 Introduction To Probability
+
 Learn about probability and how to interpret it while analyzing data on country flags.
 
 * How probability helps us determine the frequency of different events
 * The difference between conjunctive, dependent, and disjunctive probabilities
 
 #### 2.2 Calculating Probabilities
+
 Learn about calculating probabilities while analyzing bikesharing data.
 
 * How to calculate probabilities for specific events
 * How to use combinations to understand the space of possible events
 
 #### 2.3 Probability Distributions
+
 Learn about probability distributions while analyzing bikesharing data.
 
 * The basics of probability distribution
@@ -872,12 +881,14 @@ Learn about probability distributions while analyzing bikesharing data.
 * How the normal distribution works
 
 #### 2.4 Significance Testing
+
 Learn about hypothesis testing and statistical significance.
 
 * How hypothesis testing works
 * How statistical significance and hypothesis testing are related
 
 #### 2.5 Chi-Squared Tests
+
 Learn how to apply the chi-squared test to determine if observed data follows an expected pattern.
 
 * How to determine the statistical significance of observing a set of categorical values
@@ -885,14 +896,508 @@ Learn how to apply the chi-squared test to determine if observed data follows an
 * The basics of degrees of freedom
 
 #### 2.6 Multi Category Chi-Squared Tests
+
 Learn how to apply the chi-squared test across more than one category at a time.
 
 * How to extend chi-squared to multiple categories
 * How to calculate the statistical significance of multi-category chi-squared tests
 
 #### 2.7 Guided Project: Winning Jeopardy
+
 Learn how to analyze text while figuring out strategies to win at Jeopardy.
 
 * Answer questions using text data
 * Applying chi-squared tests to solve real problems
 
+## Step 6: Machine Learning
+
+### 1. Machine Learning Fundamentals
+
+**About This Course**
+Learn the fundamentals of machine learning using k-nearest neighbors.
+
+**WHAT YOU'LL LEARN**
+
+* Learn the basics of machine learning
+* Explore how to avoid common pitfalls in machine learning
+
+#### 1.1 Introduction To K-Nearest Neighbors
+
+Learn the basics of machine learning to suggest optimal AirBnB list prices.
+
+* The basics of the machine learning workflow
+* How the k-nearest neighbors algorithm works
+* The role of Euclidan distance in machine learning
+
+#### 1.2 Evaluating Model Performance
+
+Learn how to test models using error metrics and simple validation.
+
+* How to evaluate model accuracy using MSE and RMSE
+* How to compare MSE and RMSE values
+
+#### 1.3 Multivariate K-Nearest Neighbors
+
+Improve your predictions by using more features.
+
+* How to use multiple variables in machine learning models
+* How to prepare columns by normalizing and handling missing values
+
+#### 1.4 Hyperparameter Optimization
+
+Vary the k value to improve performance.
+
+* How a model's hyperparameters affect the model's performance
+* How to use grid search to try different hyperparameter values
+
+#### 1.5 Cross Validation
+
+Learn how to use k-fold cross validation to perform more rigorous testing.
+
+* How cross-validation lets us more accuractely understand model performance
+* The difference between holdout and k-fold cross validation
+* How to perform cross-validation in scikit-learn
+
+#### 1.6 Guided Project: Predicting Car Prices
+
+Practice the machine learning workflow using k-nearest neighbors to predict car prices.
+
+* Cleaning data in preparation for machine learning
+* Iterating on k-nearest neighbors models
+
+### 2. Calculus For Machine Learning
+
+**About This Course**
+Learn the calculus necessary for intermediate machine learning techniques like linear regression.
+
+**WHAT YOU'LL LEARN**
+
+* Explore the key ideas from calculus for understanding how mathematical functions behave
+* Prepare for intermediate machine learning techniques
+
+### 2.1 Understanding Linear And Nonlinear Functions
+
+Learn the basics of slope to understand mathematical functions.
+
+* How to decompose a linear equation into slope and y-intercept
+* The intuition behind slope
+
+### 2.2 Understanding Limits
+
+Learn how to calculate slope for nonlinear functions at specific points using limits.
+
+* How to represent slope using limits
+* The difference between defined and undefined limits
+  How to use SymPy to compute limits
+
+### 2.3 Finding Extreme Points
+
+Learn how to use a functions derivative to find extreme points.
+
+* How to find extreme points in a nonlinear function
+* How to compute the derivative of a nonlinear function
+
+### 3. Linear Algebra For Machine Learning
+
+**About This Course**
+Learn the linear algebra necessary for intermediate machine learning techniques like linear regression.
+
+**WHAT YOU'LL LEARN**
+
+* Explore the key ideas from linear algebra for understanding linear systems
+* Prepare for intermediate machine learning techniques
+
+#### 3.1 Linear Systems
+
+Learn how to use matrices to solve systems of linear functions.
+
+* How to represent a problem as a linear system
+* How to solve linear systems by elimination
+
+#### 3.2 Vectors
+
+Learn the visual intuition behind linear algebra using vectors.
+
+* The geometric intuition behind vectors
+* How to perform vector operations
+* The link between linear combinations and solutions to linear systems
+
+#### 3.3 Matrix Algebra
+
+Learn about the different matrix operations
+
+* How to perform matrix operations in NumPy
+* About the matrix inverse and transpose
+* How to solve the matrix inverse in higher dimensions
+
+#### 3.4 Solution Sets
+
+Learn about the different types of solution sets for a linear system.
+
+* The different solution sets to linear systems
+* The difference between homogenous and nonhomogenous systems
+
+### 4. Linear Regression For Machine Learning
+
+**About This Course**
+
+Learn how to use the linear regression machine learning model.
+
+**WHAT YOU'LL LEARN**
+
+* Learn how to make predictions using the linear regression machine learning model
+* Learn two different ways of fitting a linear regression model
+* Learn how to select, clean, and transform features
+
+#### 4.1 The Linear Regression Model
+
+Learn how to use linear regression for machine learning.
+
+* Learn about parametric machine learning algorithms
+* The basics of the linear regression model
+
+#### 4.2 Feature Selection
+
+Learn how to select features for linear regression.
+
+* How to choose appropriate features for your model
+* How to generate a heatmap of your data
+
+#### 4.3 Gradient Descent
+
+Learn how to fit a model using gradient descent.
+
+* About optimization problems
+* The theory behind the gradient descent algorithm
+
+#### 4.4 Ordinary Least Squares
+
+Learn how to fit a model using OLS.
+
+* The theory behind the ordinary least squares algorithm
+* How to choose your model's cost minimization function
+
+#### 4.5 Processing And Transforming Features
+
+Learn how to clean and prepare features for linear regression.
+
+* How to transform the training set for a machine learning model
+* The basics of feature engineering
+* How to deal with missing data
+
+#### 4.6 Guided Project: Predicting House Sale Prices
+
+Practice building and improving linear regression models
+
+* How construct your own machine learning model from scratch
+* How to build a machine learning pipeline
+
+### 5. Machine Learning In Python: Intermediate
+
+**About This Course**
+
+Dive more into Machine learning.
+
+**WHAT YOU'LL LEARN**
+
+* Learn intermediate linear regression and logistic regression concepts
+* Learn how to prevent overfitting, a common problem in machine learning
+* Explore how neural networks work
+
+### 5.1 Logistic Regression
+
+Learn the basics of logistic regression and classification.
+
+* How classification works
+* How the logistic regression model works
+* How to make predictions using logistic regression
+
+### 5.2 Introduction To Evaluating Binary Classifiers
+
+Learn how to evaluate a classification model.
+
+* The different ways of evaluating accuracy of a classification model
+* Understanding model performance using sensitivity and specificity
+
+### 5.3 Multiclass Classification
+
+Learn how to use logistic regression with multiple categories.
+
+* How to extend logistic regression to work with multiple categories
+* How to create dummy variables for categorical column
+
+### 5.4 Overfitting
+
+Learn how to detect overfitting and about the bias-variance tradeoff.
+
+* How to detect overfitting for a model
+* How to understand the bias-variance tradeoff
+
+### 5.5 Clustering Basics
+
+Learn how to use clustering to group US senators by their voting patterns.
+
+* How clustering helps you find patterns in the data
+* How to use k-means clustering
+
+### 5.6 K-Means Clustering
+
+Learn how to use K-means clustering to group together similar NBA players.
+
+* How to implement the k-means clustering algorithm from scratch
+* Some of the challenges of k-means clustering
+
+### 5.7 Gradient Descent
+
+Learn about the gradient descent technique while predicting a professional golfer's accuracy.
+
+* How to use gradient descent to fit a linear regression model
+* How to implement gradient descent from scratch
+
+### 5.8 Introduction To Neural Networks
+
+Learn the basics of neural networks while predicting the species of iris flowers.
+
+* How the cost function and gradients work for neural networks
+* How to implement neural networks from scratch
+
+### 5.9 Guided Project: Predicting The Stock Market
+
+Use machine learning techniques to predict the price of the SP500.
+
+* Applying machine learning techniques to predict the stock market
+* Engineering new features from the data
+* Iterate on machine leraning models to improve performance
+
+### 6. Decision Trees
+
+**About This Course**
+
+Learn how to construct and interpret decision trees.
+
+**WHAT YOU'LL LEARN**
+
+* Understand the types of relationships in the data decision trees can represent
+* Build a decision tree implementation from the ground up
+* Learn how to use the random forests machine learning model
+
+#### 6.1 Introduction To Decision Trees
+
+Learn about the building blocks of decision trees, including entropy and information gain.
+
+* The basics of decision trees
+* The importance of entropy and information gain
+
+#### 6.2 Building A Decision Tree
+
+Learn how to create a decision tree using the ID3 algorithm.
+
+* How to build a decision tree
+* How the ID3 algorithm works
+* How to make predictions using decision trees
+
+#### 6.3 Applying Decision Trees
+
+Learn how to apply and tweak decision trees.
+
+* How to train a decision tree model using scikit-learn
+* How to evaluate error using AUC
+* How to reduce overfitting with decision trees
+
+#### 6.4 Introduction To Random Forests
+
+Learn how to construct and apply random forests.
+
+* How to ensemble decision trees to improve prediction quality
+* How to introduce variation with bagging
+* How to reduce overfitting with random forests
+
+#### 6.5 Guided Project: Predicting Bike Rentals
+
+Apply decision trees and random forests to predict the number of bike rentals.
+
+* Creating new features
+* Applying different machine learning models
+
+### 7. Machine Learning Project
+
+**About This Course**
+
+Learn what a complete data science project looks like, from data cleaning to machine learning.
+
+**WHAT YOU'LL LEARN**
+
+* Walk through a machine learning project start to finish
+
+#### 7.1 Machine Learning Project Walkthrough: Data Cleaning
+
+Prepare data on loans for predictive modeling.
+
+* About data cleaning for machine learning tasks
+* What feature selection is for machine learning
+
+#### 7.2 Machine Learning Project Walkthrough: Preparing The Features
+
+Continue exploring and preparing the features for modeling.
+
+* How to handle missing data
+* How to prepare features for machine learning
+
+#### 7.3 Machine Learning Project Walkthrough: Making Predictions
+
+Train, test, and iterate on machine learning models.
+
+* How to choose an error metric
+* How to train and test your model using common ML algorithms
+
+## Step 7: Advanced Python and Computer Science
+
+### 1. Data Structures And Algorithms
+
+**About This Course**
+Learn how computers work and how they work with data.
+
+**WHAT YOU'LL LEARN**
+
+* Learn the basics of computer instructions
+* Explore how to use algorithms for searching datasets
+* Learn about recursion, a powerful way of structuring your code
+
+#### 1.1 Memory And Unicode
+
+Learn about computer memory and Unicode by analyzing excerpts from CIA reports.
+
+* How computers store values in memory
+* The binary and hexadecimal systems
+* How strings are represented in Unicode
+
+#### 1.2 Algorithms
+Learn to write efficient code by analyzing NBA data.
+
+* The importance of modularity and abstraction when working with algorithms
+* The difference between constant and linear time algorithms
+* The notation and framework for time complexity
+
+#### 1.3 Binary Search
+Learn to implement a more efficient search algorithm while looking at NBA player data.
+
+* How to implement the binary search algorithm
+* How to analyze the time complexity of binary search
+
+#### 1.4 Data Structures
+Learn how different data structures are organized, and what trade-offs they make.
+
+* What a data structure is
+* How to implement and analyze the performance of an array
+* How to implement and analyze the performance of a hash table
+
+#### 1.5 Recursion And Advanced Data Structures
+Learn how to use recursion to make your code logic more compact.
+
+* How recursion lets us express logic more compactly
+* How to create recursive algorithms
+* How to implement a linked list
+
+#### 1.6 Guided Project: Investigating Airplane Accidents
+Use search algorithms and data structures to explore airplane accident data.
+
+* Creating a linear time search algorithm
+* Creating a log time search algorithm
+
+
+### 2. Python Programming: Advanced
+
+**About This Course**
+Learn advanced concepts in Python, including more on object-oriented programming, lambda functions, and exception handling.
+
+**WHAT YOU'LL LEARN**
+
+* Learn how to create powerful custom classes because of OOP concepts like inheritance and exception handling
+* Learn the basics of computer architecture and parallel processing to help speed up your code
+
+#### 2.1 Object-Oriented Programming
+Use objects to compare average ages among NBA teams.
+
+* How to create a class
+* How to use Instance methods
+* Inheritance
+
+#### 2.2 Exception Handling
+Learn about exceptions while determining the optimal length of a chopstick.
+
+* How to organize code
+* Create & use a class
+* How to handle edges cases with 'except'
+
+#### 2.3 Lambda Functions
+Learn about advanced string manipulation and anonymous functions.
+
+* How to manipulate strings
+* How to use lambda functions
+
+#### 2.4 Introduction To Computer Architecture
+Learn about memory and the central processing unit.
+
+* Data Storage, Memory and RAM work within a computer
+* Computation, Control Flow, Disk Storage
+
+#### 2.5 Parallel Processing
+Learn how to run multiple instructions at the same time.
+
+* How multi-threading works
+* Concepts of Determinism in programming
+
+
+## Step 8: Advanced Topics in Data Science
+
+### 1. Kaggle Fundamentals
+
+**About This Course**
+Learn how to get started with and participate in Kaggle competitions with Kaggle's 'Titanic' competition
+
+**WHAT YOU'LL LEARN**
+
+* Build a simple machine learning model and make your first Kaggle submission
+* Create new features and select the best-performing features to improve your score
+* Work with multiple algorithms including logistic regression, k-nearest neighbors and random forests
+* How to select the best algorithm and tune your model for the best performance
+
+#### 1.1 Memory And Unicode
+
+Learn about computer memory and Unicode by analyzing excerpts from CIA reports.
+
+* How computers store values in memory
+* The binary and he
+
+### 2. Exploring Topics In Data Science
+
+**About This Course**
+Explore other topics in data science, like NLP and clustering.
+
+**WHAT YOU'LL LEARN**
+
+* Learn how to determine if text is positive or negative
+* Explore the K-nearest neighbors machine learning algorithm
+
+### 3. Natural Language Processing
+
+**About This Course**
+Learn how to get started with and participate in Kaggle competitions with Kaggle's 'Titanic' competition
+
+**WHAT YOU'LL LEARN**
+
+* Learn the basics of natural language processing
+
+## Step 9: Big Data
+
+### 1. Spark And Map-Reduce
+
+**About This Course**
+
+Learn how to use Apache Spark and the map-reduce technique to clean and analyze large datasets.
+
+**WHAT YOU'LL LEARN**
+
+* Learn the map-reduce framework for breaking down tasks for many computers to run
+* Learn how to use Spark to process and transform larger, raw files
+* Explore how Spark SQL and Spark DataFrames make it easy to work with large, structured datasets
